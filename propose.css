@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+
+}
+body{
+    background-image:url(./asset/pink-hearts-with-text-space_640852-14288.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box
+{
+    margin: 60px auto;
+    color: white;
+    border-radius: 20px;
+    width: 50%;  
+    height: 500px;
+   background-image: url(./asset/desktop-wallpaper-romantic-love-wedding-background-cute-love-love-romantic-love-background-beautiful-romantic-thumbnail.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+    color: black;text-shadow: 2px 2px 5px white;
+}
+.buttons{
+    margin: 5px auto ;
+    width: 10%;
+    font-size: 1.2rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+#yes{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: blue;
+    padding: 5px ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+#no{
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(85, 18, 18);
+    padding: 5px ;
+    border-radius: 10px;
+    color: white;
+    /* margin-left: 10px; */
+}
+@media screen and (max-width:460px) {
+.box{
+    width: 98%;
+
+}
+
+    
+}
