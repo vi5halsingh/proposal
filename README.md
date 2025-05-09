@@ -1,3 +1,26 @@
-# proposal
-this is simple page for propose anyone. I made it only for fun  during the javascript journey . ware meveryone aking this type of pages so thought let make it and now i was searching something and i found it so i felt let share it with everyone i
-Author: Vishal Singh Lodhi
+# 💍 Interactive Proposal Website
+
+A romantic interactive proposal page with playful elements. Created as a fun JavaScript project to make digital proposals more engaging.
+
+## ✨ Features
+- Playful "Yes/No" button interaction
+- Rotating romantic messages with typing effect
+- Responsive design for all devices
+- Right-click protection (developer contact reminder)
+
+## 🛠️ Tech Stack
+- HTML5 & CSS3 animations
+- JavaScript ES6
+
+## 🚀 Installation & Usage
+1. Simply open `index.html` in any modern browser
+2. Click "Yes" to accept proposal ❤️
+3. Try to refuse by hovering the "No" button 😉
+
+## 🌟 Special Features
+```bash
+- Auto-swapping buttons
+- Message rotation every 3 seconds
+- Smooth typing animations
+- Mobile-optimized layout
+```

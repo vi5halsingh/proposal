@@ -1,24 +1,24 @@
-*{
-    box-sizing: border-box;
-    margin: 0;padding: 0;
-
-}
-body{
-    background-image:url(./asset/pink-hearts-with-text-space_640852-14288.avif);
+body {
+    background: linear-gradient(45deg, #ffb6c1, #ff69b4);
+    background-image: url('https://img.freepik.com/free-photo/pink-heart-shaped-confetti-background_53876-98915.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    overflow: hidden;
 }
-.box
-{
+.box {
+    position: relative;
+    z-index: 2;
+    background: transparent;
     margin: 60px auto;
     color: white;
     border-radius: 20px;
     width: 50%;  
     height: 500px;
-   background-image: url(./asset/desktop-wallpaper-romantic-love-wedding-background-cute-love-love-romantic-love-background-beautiful-romantic-thumbnail.jpg);
+   background-image: url('https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tYW50aWMlMjBsb3ZlfGVufDB8fDB8fHww');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -47,6 +47,14 @@ h1{
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    .cursor {
+        animation: blink 1s infinite;
+    }
+    
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
     
 }
 #no{
@@ -58,12 +66,10 @@ h1{
     border-radius: 10px;
     color: white;
     /* margin-left: 10px; */
-}
-@media screen and (max-width:460px) {
-.box{
-    width: 98%;
-
-}
 
     
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
